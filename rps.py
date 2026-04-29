@@ -4,7 +4,10 @@ options=["rock","paper","secisors"]
 person1=random.choice(options)
 person2=random.choice(options)
 
-if person1(random.options)==person2(random.options):
+print("person 1: ",person1)
+print("person 2: ",person2)
+
+if person1==person2:
     print("stone paper secisor")
 else:
     print("next chance:")
