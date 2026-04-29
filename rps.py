@@ -9,5 +9,7 @@ print("person 2: ",person2)
 
 if person1==person2:
     print("stone paper secisor")
+elif person1 =="rock" and person2 =="paper":
+    print("paper won")
 else:
     print("next chance:")
