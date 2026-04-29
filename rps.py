@@ -9,21 +9,23 @@ print("person 2: ",person2)
 
 if person1==person2:
     print(" play again ! rock paper secisor")
+else:
 
     if person1 =="rock" and person2 =="paper":
-        print("paper won")
+        print("person 2  won he have paper")
     
     elif person1 =="rock" and person2 =="secisors":
-        print("rock win")
+        print("person 1 win he have rock")
     
-    elif person1 == "scisor" and person2=="paper":
-        print("scisor won")
+    elif person1 == "secisors" and person2=="paper":
+        print("person 1 win he have secisors")
     
-    elif person1 == "scisor" and person2=="rock":
-        print("rock won")
+    elif person1 == "secisors" and person2=="rock":
+        print("person 2 win he have rock")
     
-    elif person1 == "paper" and person2=="scisor":
-        print("scisor won")
+    elif person1 == "paper" and person2=="secisors":
+        print("person 2 win he have secisors")
+    
+    elif person1== "paper" and person2=="rock":
+        print("person 1 win he have paper")
 
-else:
-    print("next chance:")
