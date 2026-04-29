@@ -8,7 +8,7 @@ print("person 1: ",person1)
 print("person 2: ",person2)
 
 if person1==person2:
-    print(" play again ! rock paper secisor")
+    print(" ok play again ! rock paper secisor")
 else:
 
     if person1 =="rock" and person2 =="paper":
