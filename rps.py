@@ -8,12 +8,22 @@ print("person 1: ",person1)
 print("person 2: ",person2)
 
 if person1==person2:
-    print("stone paper secisor")
-elif person1 =="rock" and person2 =="paper":
-    print("paper won")
-elif person1 =="rock" and person2 =="secisors":
-    print("rock win")
-elif person1 == "scisor" and person2=="paper":
-    print("scisor won")
+    print(" play again ! rock paper secisor")
+
+    if person1 =="rock" and person2 =="paper":
+        print("paper won")
+    
+    elif person1 =="rock" and person2 =="secisors":
+        print("rock win")
+    
+    elif person1 == "scisor" and person2=="paper":
+        print("scisor won")
+    
+    elif person1 == "scisor" and person2=="rock":
+        print("rock won")
+    
+    elif person1 == "paper" and person2=="scisor":
+        print("scisor won")
+
 else:
     print("next chance:")
