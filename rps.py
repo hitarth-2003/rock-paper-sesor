@@ -11,5 +11,9 @@ if person1==person2:
     print("stone paper secisor")
 elif person1 =="rock" and person2 =="paper":
     print("paper won")
+elif person1 =="rock" and person2 =="secisors":
+    print("rock win")
+elif person1 == "scisor" and person2=="paper":
+    print("scisor won")
 else:
     print("next chance:")
